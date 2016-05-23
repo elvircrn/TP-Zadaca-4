@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1463970928 source:c:\users\elvircrn\documents\codes\tp zadaca 4\drugi\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<algorithm>
+	<string>
+	<cstring>
+	<vector>
+	<queue>
+	<stack>
+	<functional>
+	<stdexcept>
+	<memory>
+	"NepreklapajuciPravougaonik.h"
+
+1463875645 c:\users\elvircrn\documents\codes\tp zadaca 4\drugi\include\pravougaonik.h
+	<iostream>
+	<vector>
+	<string>
+	<climits>
+	<stdexcept>
+	<cstring>
+
+1463971494 source:c:\users\elvircrn\documents\codes\tp zadaca 4\drugi\src\nepreklapajucipravougaonik.cpp
+	<iostream>
+	<vector>
+	<string>
+	<cstring>
+	<cmath>
+	<algorithm>
+	<stdexcept>
+	"NepreklapajuciPravougaonik.h"
+
+1463970785 c:\users\elvircrn\documents\codes\tp zadaca 4\drugi\include\nepreklapajucipravougaonik.h
+	<iostream>
+	<vector>
+	<string>
+	<climits>
+	<stdexcept>
+	<cstring>
+

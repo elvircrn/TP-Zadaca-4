@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <algorithm>
+#include <string>
+#include <cstring>
+#include <vector>
+#include <queue>
+#include <stack>
+
+struct Tacka
+{
+	double x, y;
+};
+
+enum Pozicija {GoreLijevo, GoreDesno, DoljeLijevo, DoljeDesno};
+enum Smjer {Nalijevo, Nadesno};
+
+int main()
+{
+
+	return 0;
+}

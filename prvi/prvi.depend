@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1463890987 source:c:\users\elvircrn\documents\codes\tp zadaca 4\prvi\main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<algorithm>
+	<string>
+	<cstring>
+	<vector>
+	<queue>
+	<stack>
+	<functional>
+	"Pravougaonik.h"
+
+1463916659 source:c:\users\elvircrn\documents\codes\tp zadaca 4\prvi\src\pravougaonik.cpp
+	<iostream>
+	<vector>
+	<string>
+	<cstring>
+	<cmath>
+	<algorithm>
+	<stdexcept>
+	"Pravougaonik.h"
+
+1463887942 c:\users\elvircrn\documents\codes\tp zadaca 4\prvi\include\pravougaonik.h
+	<iostream>
+	<vector>
+	<string>
+	<climits>
+	<stdexcept>
+	<cstring>
+

@@ -1,0 +1,42 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <cstring>
+
+#ifndef PRAVOUGAONIK_H
+#define PRAVOUGAONIK_H
+
+struct Tacka
+{
+	double x, y;
+};
+
+enum Pozicija {GoreLijevo, GoreDesno, DoljeLijevo, DoljeDesno};
+enum Smjer {Nalijevo, Nadesno};
+
+class Pravougaonik
+{
+private:
+	vector
+
+public:
+	Pravougaonik(const Tacka &t1, const Tacka &t2);
+	void Postavi(const Tacka &t1, const Tacka &t2);
+	void Postavi(Pozicija p, const Tacka &t);
+	void Centriraj(const Tacka &t);
+	Tacka DajTjeme(Pozicija p) const;
+	Tacka DajCentar() const;
+	double DajHorizontalnu() const;
+	double DajVertikalnu() const;
+	double DajObim() const;
+	double DajPovrsinu() const;
+	static Pravougaonik Presjek(const Pravougaonik &p1, const Pravougaonik &p2);
+	void Transliraj(double delta_x, double delta_y);
+	void Rotiraj(const Tacka &t, Smjer s);
+	void Ispisi() const;
+	friend bool DaLiSePoklapaju(const Pravougaonik &p1, const Pravougaonik &p2);
+	friend bool DaLiSuPodudarni(const Pravougaonik &p1, const Pravougaonik &p2);
+	friend bool DaLiSuSlicni(const Pravougaonik &p1, const Pravougaonik &p2);
+};
+
+#endif // PRAVOUGAONIK_H
